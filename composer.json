@@ -1,0 +1,17 @@
+{
+    "name": "theunium/monoframe",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MonoLib\\": "src/"
+         }
+    },
+    "authors": [
+        {
+            "name": "LeUnium"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.25.1"
+    }
+}
