@@ -1,7 +1,7 @@
 # monolib
 A really bad php "framework" (i am doubting if this even counts as framework)
 
-Documentation [here](https://github.com/TheUnium/monolib/tree/main/docs).
+Documentation [here](https://github.com/TheUnium/monoframe/tree/main/docs).
 
 I have not idea how to properly publish this, because this was not meant to be public, i am just bored so ¯\\_(ツ)_/¯.
 
