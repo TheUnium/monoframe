@@ -1,3 +1,4 @@
+# Source : Laravel's public htaccess file lol
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
