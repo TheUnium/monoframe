@@ -1,7 +1,7 @@
 <?php include dirname(__DIR__, 1) . '/components/header.php'; ?>
 
 <pre class="content">
-<a href="https://theunium.github.io"><span class="pink">MonoFrame</span></a>
+<a href="https://theunium.github.io"><span class="pink">MonoFrame > <?php echo \MonoLib\Lib\Config::get("PROJECT_NAME"); ?> </span></a>
 The second worst <span class="php">PHP</span> framework, right in front of the old version of me :)
 
 email   -> <a href="mailto:uniumfr@gmail.com">uniumfr@gmail.com</a>
