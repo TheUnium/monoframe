@@ -1,7 +1,7 @@
 # monoframe
 A decent PHP framework.
 
-Documentation [here](https://github.com/TheUnium/monoframe/tree/main/docs).
+Documentation [here](https://github.com/TheUnium/monoframe/wiki).
 
 I have not idea how to properly publish this, because this was not meant to be public, i am just bored so ¯\\_(ツ)_/¯.
 
