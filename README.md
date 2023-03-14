@@ -15,7 +15,7 @@ I will probably make this a proper framework with higher quality of code, slowly
 (eg : `hello.mono.php`). Done :)
 
 ## credits
-config, logger : https://codeburst.io/write-modern-php-without-framework-d244d8ca2b50
+get config : https://codeburst.io/write-modern-php-without-framework-d244d8ca2b50
 
 
 <a href="https://github.com/TheUnium/monolib/graphs/contributors">
