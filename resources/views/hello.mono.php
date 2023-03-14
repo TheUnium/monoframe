@@ -1,7 +1,8 @@
-<?php include dirname(__DIR__, 1) . '/components/header.php'; ?>
-
+{% extends 'layout/base.mono.php' %}
+{% set title = 'MonoFrame' %}
+{% block content %}
 <pre class="content">
-<a href="https://theunium.github.io"><span class="pink">MonoFrame > <?php echo \MonoLib\Lib\Config::get("PROJECT_NAME"); ?> </span></a>
+<a href="https://theunium.github.io"><span class="pink">MonoFrame > {{ mono.project_name }} </span></a>
 The second worst <span class="php">PHP</span> framework, right in front of the old version of me :)
 
 email   -> <a href="mailto:uniumfr@gmail.com">uniumfr@gmail.com</a>
@@ -20,5 +21,4 @@ support  -> <a href="https://ko-fi.com/unium">unium @ ko-fi</a>
   design for this starter page.
   <a href="https://theunium.github.io">website</a> <a href="https://www.youtube.com/@gameworkys">channel</a> <a href="https://discord.gg/gdQaftVKgn">discord server</a> <a href="https://github.com/TheUnium">github</a>
 
-<?php include dirname(__DIR__, 1) . '/components/footer.php'; ?>
-</pre>
+{% endblock %}

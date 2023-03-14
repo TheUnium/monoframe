@@ -13,6 +13,7 @@
     ],
     "require": {
         "monolog/monolog": "1.25.1",
-        "mustangostang/spyc": "^0.6.3"
+        "mustangostang/spyc": "^0.6.3",
+        "twig/twig": "^3.5"
     }
 }

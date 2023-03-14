@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MonoFrame</title>
+    <title>{{ title }}</title>
     <style>
         /* I copied this from my own personal website https://theunium.github.io */
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap');
@@ -115,3 +115,9 @@
     </style>
 </head>
 <body class="text-white bg-black">
+{% block content %}
+{% endblock %}
+<footer><p><span class=comment>
+        # unium was here          PHP Version : {{ mono.php }}          MonoFrame Version : {{ mono.version }}
+</span></p></footer>
+</pre></body></html>
