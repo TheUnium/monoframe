@@ -107,10 +107,6 @@ simv.db.dir/
 # switch:  -Mdir=<directory_path>
 csrc/
 
-# Log file - the following switch allows to specify the file that will be
-# used to write all messages from simulation:  -l <filename>
-*.log
-
 # Coverage results (generated with urg) and database location.  The
 # following switch can also be used:  urg -dir <coverage_directory>.vdb
 simv.vdb/
